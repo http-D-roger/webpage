@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box;
+}
+body{
+    background-color: rgb(241, 221, 194);
+}
+h1{
+    margin-bottom: 20px;
+    text-decoration:underline;
+}
+.class2{
+    margin-bottom: 20px;
+    color: rgb(3, 49, 49);
+    text-decoration:underline;
+    font-style: italic;
+
+}
+.para{
+    margin-bottom: 20px;
+    color: rgb(3, 49, 49);
+    text-decoration:underline;
+    font-style: italic;
+}
+ul li{
+    margin-left:20px;
+    text-decoration:underline;
+
+}
+ol li{
+    margin-left:20px;
+    text-decoration:underline;
+
+}
+img{
+
+}
+:root{
+    --color-primary:black;
+
+}
+nav ul{
+    flex-direction: row;
+    gap:40px;
+    list-style: none;
+}
+nav ul li a{
+
+    text-decoration:none;
+}
